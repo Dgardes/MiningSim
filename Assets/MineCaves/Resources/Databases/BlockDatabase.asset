@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1be249bf2e4b7964b77213cf57b27f9b, type: 3}
+  m_Name: BlockDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::BlockDatabaseSO
+  allTiles:
+  - {fileID: 11400000, guid: 317424cc9d5693c44b62d23e25dafba8, type: 2}
+  - {fileID: 11400000, guid: 9c924e56b5d20044aa50822fd1a9691b, type: 2}
+  - {fileID: 11400000, guid: 802166eb9a05b5f42b07d5cbe1ae441e, type: 2}
+  - {fileID: 11400000, guid: 45542551c74ae5f42b1396eb3375bcd3, type: 2}
+  - {fileID: 11400000, guid: 1265a6acf6c292448923c75fa71f2aa6, type: 2}
+  - {fileID: 11400000, guid: 7424621ae0212f14f8ce6f20aae55685, type: 2}
+  - {fileID: 11400000, guid: 42f8249168ad0f347bd8cc58c2f6d3d1, type: 2}
+  - {fileID: 11400000, guid: fffa9ce6045204a47bc671726f6b3f39, type: 2}
+  - {fileID: 11400000, guid: 8cbdef21dc8386b42836e233a62eb80d, type: 2}
+  - {fileID: 11400000, guid: 3197d69643e0a814485813f328bbb4e0, type: 2}
+  - {fileID: 11400000, guid: a93aa830cda4dd44cafdbdaba7d84c19, type: 2}
+  - {fileID: 11400000, guid: 3bef65405bf96e447a5e4dcf8b6322ef, type: 2}

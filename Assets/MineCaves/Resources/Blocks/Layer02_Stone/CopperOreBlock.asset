@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a25a96856a459143a8f51f12aa8378b, type: 3}
+  m_Name: CopperOreBlock
+  m_EditorClassIdentifier: Assembly-CSharp::BlockData
+  code: CopperOreBlock
+  durability: 30
+  particles: {fileID: 0}
+  blockSprite: {fileID: 1399498965725805555, guid: d28b093058de76e4c907da70485fa1c6, type: 3}
+  breakAudio: {fileID: 0}
+  dropItem: {fileID: 0}
+  minBaseDrop: 1
+  maxBaseDrop: 1
+  maxBonusDrop: 4
+  luckSensitivity: 0.7

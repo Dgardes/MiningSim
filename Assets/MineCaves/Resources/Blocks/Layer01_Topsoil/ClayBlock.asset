@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a25a96856a459143a8f51f12aa8378b, type: 3}
+  m_Name: ClayBlock
+  m_EditorClassIdentifier: Assembly-CSharp::BlockData
+  code: ClayBlock
+  durability: 15
+  particles: {fileID: 0}
+  blockSprite: {fileID: 2014698281807194027, guid: 10e26f9ac53bdb243b18f92510b088d5, type: 3}
+  breakAudio: {fileID: 0}
+  dropItem: {fileID: 11400000, guid: bbd910b1aabbd6142b79519997b3eb5f, type: 2}
+  minBaseDrop: 1
+  maxBaseDrop: 1
+  maxBonusDrop: 1
+  luckSensitivity: 0.5

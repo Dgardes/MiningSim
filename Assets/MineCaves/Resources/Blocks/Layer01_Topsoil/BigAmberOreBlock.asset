@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a25a96856a459143a8f51f12aa8378b, type: 3}
+  m_Name: BigAmberOreBlock
+  m_EditorClassIdentifier: Assembly-CSharp::BlockData
+  code: BigAmberOreBlock
+  durability: 25
+  particles: {fileID: 0}
+  blockSprite: {fileID: 8828304412758408883, guid: b90eae3d2da70704c9ca82dd20fe4a4f, type: 3}
+  breakAudio: {fileID: 0}
+  dropItem: {fileID: 11400000, guid: c38cea38e337fc846b2a07d039e4db4f, type: 2}
+  minBaseDrop: 1
+  maxBaseDrop: 4
+  maxBonusDrop: 2
+  luckSensitivity: 0.5

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e7ad8759240d64d831bf9349cd8510, type: 3}
+  m_Name: WorldGenSettings
+  m_EditorClassIdentifier: Assembly-CSharp::WorldGenSettingsSO
+  blockDatabase: {fileID: 11400000, guid: 2b97ea26434250c488c188e9ed335171, type: 2}
+  oreFamilies:
+  - {fileID: 11400000, guid: 4005e7cbb2a599e41b6a3655b5aabcf9, type: 2}
+  - {fileID: 11400000, guid: c6c10b8ab3a5cc6438f578436f06baf7, type: 2}
+  - {fileID: 11400000, guid: 1706ca1d24aa5d94ca62f441d1cfdb64, type: 2}
+  - {fileID: 11400000, guid: 5cfaa58b421804e4b936db9d7507e829, type: 2}
+  - {fileID: 11400000, guid: aa1e2b79ede362c4dbf320d7b5ca2404, type: 2}
+  - {fileID: 11400000, guid: 13d8d3e901e36bd4084815121b24e43e, type: 2}
+  - {fileID: 11400000, guid: ef96650de34a927489fe7b43ab2061ad, type: 2}
+  - {fileID: 11400000, guid: 96a2dc0b43bd1224085eec56776a7828, type: 2}
+  - {fileID: 11400000, guid: 99ecf44413291114c91afae057f6a853, type: 2}
+  depthLayers:
+  - minDepth: 0
+    maxDepth: 0
+    filler: {fileID: 11400000, guid: 1265a6acf6c292448923c75fa71f2aa6, type: 2}
+    background: {fileID: 0}
+    blend: 0
+  - minDepth: 1
+    maxDepth: 50
+    filler: {fileID: 11400000, guid: 45542551c74ae5f42b1396eb3375bcd3, type: 2}
+    background: {fileID: 0}
+    blend: 1
+  - minDepth: 51
+    maxDepth: 250
+    filler: {fileID: 11400000, guid: 3bef65405bf96e447a5e4dcf8b6322ef, type: 2}
+    background: {fileID: 0}
+    blend: 1
+  caves:
+    scale: 0.05
+    octaves: 3
+    threshold: 0.58
+    frequencyMultiplier: 3
+    amplitudeMultiplier: 0.25
+    stretchX: 0.55
+    stretchY: 1.1
+    safeDepth: 50
+    startGenerationCordX: 10
+    fadeDepth: 10
+    fadeWidth: 26
+    blend: 8

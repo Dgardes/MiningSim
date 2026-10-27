@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aea9b41ef0465a44592fd5e13a16f7f3, type: 3}
+  m_Name: MithrilPickaxe
+  m_EditorClassIdentifier: Assembly-CSharp::PickaxeSO
+  code: MithrilPickaxe
+  damage: 95
+  bonusSpeed: 0.4
+  shopTier: 0
+  price: 25000
+  maxEnchantsCount: 4
+  craftIngredients: []
+  pickaxeAbility: {fileID: 11400000, guid: bbfc6679d8b923c40ad6d68a8da88746, type: 2}

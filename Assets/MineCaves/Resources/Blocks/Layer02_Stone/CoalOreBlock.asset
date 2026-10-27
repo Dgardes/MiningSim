@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a25a96856a459143a8f51f12aa8378b, type: 3}
+  m_Name: CoalOreBlock
+  m_EditorClassIdentifier: Assembly-CSharp::BlockData
+  code: CoalOreBlock
+  durability: 30
+  particles: {fileID: 0}
+  blockSprite: {fileID: -8985098202112987402, guid: a3cda6cf9071cdf4495062e589eb0157, type: 3}
+  breakAudio: {fileID: 0}
+  dropItem: {fileID: 0}
+  minBaseDrop: 1
+  maxBaseDrop: 6
+  maxBonusDrop: 5
+  luckSensitivity: 0.8

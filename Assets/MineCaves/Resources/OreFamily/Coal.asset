@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d8bd4f3604491c4789770f716c36de1, type: 3}
+  m_Name: Coal
+  m_EditorClassIdentifier: Assembly-CSharp::OreFamilySO
+  familyName: 
+  priority: 4
+  oreChunkSize: 25
+  oreOffset: 0.2
+  maxElongation: 3
+  tiers:
+  - blockData: {fileID: 11400000, guid: 15ee9956f25e7dc418760db942693a70, type: 2}
+    minDepth: 50
+    maxDepth: 400
+    spawnChanceByDepth:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.20006688
+        value: 0.505044
+        inSlope: 1.7561437
+        outSlope: 1.7561437
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.78456986
+        value: 0.98397696
+        inSlope: -0.07587441
+        outSlope: -0.07587441
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.25358585
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: -9.240858
+        outSlope: -9.240858
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.10114001
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    minVeinSize: 3
+    maxVeinSize: 6

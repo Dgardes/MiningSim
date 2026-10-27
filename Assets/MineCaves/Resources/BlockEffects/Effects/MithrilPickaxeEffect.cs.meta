@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 4e76608be594a8b45ad34595429e9f26
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mithrilBuff: {fileID: 11400000, guid: 334891d7d5eebea4bbfd4f609352b4fc, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

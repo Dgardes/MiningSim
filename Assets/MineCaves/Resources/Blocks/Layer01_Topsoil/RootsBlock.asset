@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a25a96856a459143a8f51f12aa8378b, type: 3}
+  m_Name: RootsBlock
+  m_EditorClassIdentifier: Assembly-CSharp::BlockData
+  code: RootsBlock
+  durability: 12
+  particles: {fileID: 0}
+  blockSprite: {fileID: 2314501358972912442, guid: 97548a7de6be30247879ddee3b91780c, type: 3}
+  breakAudio: {fileID: 0}
+  dropItem: {fileID: 11400000, guid: 5b1bec42a494c4b4684d582647ec8605, type: 2}
+  minBaseDrop: 1
+  maxBaseDrop: 1
+  maxBonusDrop: 0
+  luckSensitivity: 0

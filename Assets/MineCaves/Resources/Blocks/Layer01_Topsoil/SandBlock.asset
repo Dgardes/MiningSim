@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a25a96856a459143a8f51f12aa8378b, type: 3}
+  m_Name: SandBlock
+  m_EditorClassIdentifier: Assembly-CSharp::BlockData
+  code: SandBlock
+  durability: 10
+  particles: {fileID: 0}
+  blockSprite: {fileID: 1453883170010694233, guid: 7be9e5f9608fa5d4cb4a94309a0a4772, type: 3}
+  breakAudio: {fileID: 0}
+  dropItem: {fileID: 11400000, guid: 7586d38aba158924698869d83fce6cf3, type: 2}
+  minBaseDrop: 1
+  maxBaseDrop: 1
+  maxBonusDrop: 0
+  luckSensitivity: 0

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a25a96856a459143a8f51f12aa8378b, type: 3}
+  m_Name: LimestoneBlock
+  m_EditorClassIdentifier: Assembly-CSharp::BlockData
+  code: LimestoneBlock
+  durability: 18
+  particles: {fileID: 0}
+  blockSprite: {fileID: 9077717116646230779, guid: eab67448e1eb3a6479503afb5a9f0541, type: 3}
+  breakAudio: {fileID: 0}
+  dropItem: {fileID: 11400000, guid: 4b9c41f086ff90042bade5c824f6e9e9, type: 2}
+  minBaseDrop: 1
+  maxBaseDrop: 1
+  maxBonusDrop: 0
+  luckSensitivity: 0
